@@ -79,13 +79,13 @@ const galleryMarkup = images.map(({ preview, original, description }) => {
 }).join('');
 galleryContainer.innerHTML = galleryMarkup;
 
-galleryContainer.addEventListener('click', (event) => {
-    event.preventDefault();
-    if (event.target.nodeName !== 'IMG') {
-        return;
-    }
-    console.log(event.target.dataset.source);
-});
+// galleryContainer.addEventListener('click', (event) => {
+//     event.preventDefault();
+//     if (event.target.nodeName !== 'IMG') {
+//         return;
+//     }
+//     console.log(event.target.dataset.source);
+// });
 
 galleryContainer.addEventListener('click', (event) => {
   event.preventDefault();
