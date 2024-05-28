@@ -1,0 +1,16 @@
+.gallery{
+    display: flex;
+    gap: 24px;
+    list-style: none;
+    width: 1440px;
+    background-color: aquamarine;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+.gallery-image{
+    width: 360px;
+    height: 200px;
+}
